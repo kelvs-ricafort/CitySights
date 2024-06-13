@@ -18,6 +18,7 @@ struct ContentView: View {
                 // TODO: Implement query
             } label: {
                 Text("Go")
+                    .padding()
                     .background(.blue)
                     .foregroundStyle(.white)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
