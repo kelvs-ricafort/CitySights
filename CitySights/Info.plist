@@ -4,5 +4,7 @@
 <dict>
 	<key>API_KEY</key>
 	<string>$(API_KEY)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs your location to find city sights near you</string>
 </dict>
 </plist>
