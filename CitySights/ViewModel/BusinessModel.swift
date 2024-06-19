@@ -12,7 +12,6 @@ import CoreLocation
 @Observable
 class BusinessModel: NSObject, CLLocationManagerDelegate {
     var businesses = [Business]()
-    var query: String = ""
     var selectedBusiness: Business?
     
     var service = DataService()
@@ -26,9 +25,9 @@ class BusinessModel: NSObject, CLLocationManagerDelegate {
         locationManager.delegate = self
     }
     
-    func getBusinesses() {
+    func getBusinesses(query: String?, options: String?, category: String?) {
         Task {
-            businesses = await service.businessSearch(userLocation: currentUserLocation)
+            businesses = await service.businessSearch(userLocation: currentUserLocation, query: query, options: options, category: category)
         }
     }
     
@@ -59,7 +58,7 @@ class BusinessModel: NSObject, CLLocationManagerDelegate {
         if currentUserLocation == nil {
             
             currentUserLocation = locations.last?.coordinate
-            getBusinesses()
+            getBusinesses(query: nil, options: nil, category: nil)
         }
         
         manager.stopUpdatingLocation()
