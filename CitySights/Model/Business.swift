@@ -26,7 +26,7 @@ struct Business: Decodable, Identifiable {
     
     enum CodingKeys: String, CodingKey {
         case displayPhone = "display_phone"
-        case imageUrl = "imageUrl"
+        case imageUrl = "image_url"
         case isClosed = "is_closed"
         case reviewCount = "review_count"
         

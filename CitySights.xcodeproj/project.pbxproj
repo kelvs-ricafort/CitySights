@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		B6198CC02C1C408900C9BCE5 /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6198CBF2C1C408900C9BCE5 /* TextHelper.swift */; };
 		B6198CC22C1C477300C9BCE5 /* BusinessDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6198CC12C1C477300C9BCE5 /* BusinessDetailView.swift */; };
+		B638978C2C22C2840000A70F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348032C20726400561669 /* ListView.swift */; };
 		B694305E2C201FD600AC341B /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694305D2C201FD600AC341B /* ImageHelper.swift */; };
 		B6B05A582C20262300E9C26B /* BusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B05A572C20262300E9C26B /* BusinessModel.swift */; };
 		B6B671662C215EC4005568A6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B671652C215EC4005568A6 /* OnboardingView.swift */; };
 		B6C348022C206E6000561669 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348012C206E6000561669 /* MapView.swift */; };
-		B6C348042C20726400561669 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C348032C20726400561669 /* ListView.swift */; };
 		B6E703562C1AC3A000BB4B54 /* CitySights.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E703552C1AC3A000BB4B54 /* CitySights.swift */; };
 		B6E703582C1AC3A000BB4B54 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E703572C1AC3A000BB4B54 /* HomeView.swift */; };
 		B6E7035A2C1AC3A700BB4B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E703592C1AC3A700BB4B54 /* Assets.xcassets */; };
@@ -229,7 +229,7 @@
 				B6F56E0E2C216797008A3AF0 /* OnboardingViewDetails.swift in Sources */,
 				B6198CC22C1C477300C9BCE5 /* BusinessDetailView.swift in Sources */,
 				B6EDCF6B2C1AF30C00154B21 /* Coordinate.swift in Sources */,
-				B6C348042C20726400561669 /* ListView.swift in Sources */,
+				B638978C2C22C2840000A70F /* ListView.swift in Sources */,
 				B6B05A582C20262300E9C26B /* BusinessModel.swift in Sources */,
 				B6EDCF602C1AE34000154B21 /* DataService.swift in Sources */,
 				B6198CC02C1C408900C9BCE5 /* TextHelper.swift in Sources */,
